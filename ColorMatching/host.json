@@ -1,0 +1,17 @@
+{
+    "version": "2.0",
+    "logging": {
+        "logLevel": {
+            "Host.Results": "Error",
+            "Function": "Error",
+            "Function.ProcessColorMessage": "Information",
+            "default": "Error"
+        },
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": false,
+                "excludedTypes": "Request"
+            }
+        }
+    }
+}
